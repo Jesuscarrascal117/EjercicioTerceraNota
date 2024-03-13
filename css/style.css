@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family:'Poppins', sans-serif;
+}
+
+body {
+display: grid;
+background-image: url(https://cdn.sanity.io/images/dm4o0ui7/production/ab8622774dfd8bc6b2107656cc1d648ff48279b3-1200x600.png?w=900&h=450&auto=format);
+padding: 20px;
+margin: auto;
+
+}
+
+header {
+background-color: rgba(103, 100, 126, 0.301);
+ 
+ font-family :  sans-serif;
+   padding : 16px ;
+
+}
+.titulo{
+
+    color: rgb(30, 123, 210);
+}
+nav {
+    
+    color: rgb(145, 99, 39);
+    padding : auto ;
+
+}
+#transfodo{
+
+    background-color: rgba(240, 248, 255, 0.651);
+    align-items: center;
+}
+#logo {
+padding: 20px;
+position: relative;
+}
+nav {
+    display: grid;
+    padding: 20px;
+}
+.Imagenes {
+    padding: 10px;
+}
