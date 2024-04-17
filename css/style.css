@@ -1,15 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Lora",  sans-serif;
 }
 
 :root {
-    --color_text-primary: #309C13;
+    --color_text-primary: #e45f5f;
     --color_text-secundary: #101E2C;
     --color_text-tertiary: #155404;
     --lowText_font_size: 16px;
@@ -22,7 +22,7 @@ header {
     height: auto;
     position: fixed;
     z-index: 100;
-    background-color: rgba(240, 254, 255, 0.651);
+    background-color: rgba(255, 249, 240, 0.651);
     display: flex;
 }
 
@@ -54,7 +54,7 @@ header {
 
 body {
     display: grid;
-    background-image: url(https://cdn.sanity.io/images/dm4o0ui7/production/ab8622774dfd8bc6b2107656cc1d648ff48279b3-1200x600.png?w=900&h=450&auto=format);
+    background-color: #e6e6e6;
     padding: 20px;
     margin: auto;
 
@@ -145,7 +145,7 @@ body {
     padding-top: 100px;
     padding-bottom: 100px;
     background: var(--main_color-secundary);
-    background-color: rgba(233, 219, 202, 0.815);
+    background-color: rgba(241, 185, 185, 0.815);
 }
 
 .cover {
@@ -181,17 +181,17 @@ body {
     text-align: center;
     font-weight: 500;
     background: var(--main_color-primary);
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     border-radius: 8px;
-    border: 2px solid transparent;
+    border: 3px solid ;
     cursor: pointer;
     transition: all 300ms;
 }
 
 .btn__text:hover {
-    background: transparent;
+    background: rgba(248, 126, 126, 0.808);
     border: 2px solid var(--main_color-primary);
-    color: var(--color_text-tertiary);
+    color: var(--color_text-secundary);
 }
 
 .imagen-cover {
@@ -259,4 +259,68 @@ body {
 
 .box__card-primary p{
     margin-top: 20px;
+}
+
+
+.container__cover-2 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: var(--main_color-secundary);
+    background-color: rgba(241, 162, 162, 0.815);
+}
+
+.cover-2{
+    max-width: 1300px;
+    max-height: 300px;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.text-cover-2 {
+    width: 100%;
+    padding-right: 150px;
+}
+
+.text-cover-2 h1 {
+    font-size: 40px;
+    color: var(--color_text-secundary);
+}
+
+.text-cover-2 p {
+    font-size: var(--text_paragraph);
+    margin-top: 30px;
+    color: var(--color_text-secundary);
+}
+
+.btn__text-2 {
+    display: block;
+    width: 150px;
+    margin-top: 40px;
+    padding: 10px 20px;
+    text-align: center;
+    font-weight: 500;
+    background: var(--main_color-primary);
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    border: 3px solid ;
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+.btn__text-2:hover {
+    background: rgba(248, 126, 126, 0.808);
+    border: 2px solid var(--main_color-primary);
+    color: var(--color_text-secundary);
+}
+
+.imagen-cover-2 {
+    width: 100%;
+}
+
+.imagen-cover-2 img {
+    width: 600px;
+    height: 400px;
 }
