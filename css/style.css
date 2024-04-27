@@ -237,6 +237,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 50px;
+
 }
 
 .box__card-primary {
@@ -329,6 +330,7 @@ body {
     height: 200px;
     border-radius: 50px;
 }
+
 .segunda-lista {
     background-color: rgba(240, 248, 255, 0.438);
 }
@@ -342,5 +344,159 @@ body {
     padding-bottom: 100px;
     background: var(--main_color-secundary);
     background-color: rgba(241, 185, 185, 0.815);
+
 }
 
+.Imagen-f {
+    text-align: left;
+}
+
+.box__card-primary1 {
+    max-width: 350px;
+    padding: 60px 5px;
+    border: 1px solid #161616;
+    border-radius: 40px;
+    margin: 20px;
+    transition: all 200ms;
+    background-image: url(https://www.bikerwiki.ru/images/thumb/e/e2/80810.jpg/400px-80810.jpg);
+    background-position-x: center;
+    background-position-y: center;
+    
+}
+
+.box__card-primary2 {
+    max-width: 350px;
+    padding: 60px 5px;
+    border: 1px solid #161616;
+    border-radius: 40px;
+    margin: 20px;
+    transition: all 200ms;
+
+}
+
+.box__card-primary3 {
+    max-width: 350px;
+    padding: 60px 5px;
+    border: 1px solid #161616;
+    border-radius: 40px;
+    margin: 20px;
+    transition: all 200ms;
+}
+
+.box__card-primary4 {
+    max-width: 350px;
+    padding: 60px 5px;
+    border: 1px solid #161616;
+    border-radius: 40px;
+    margin: 20px;
+    transition: all 200ms;
+}
+
+.box__card-primary5 {
+    max-width: 350px;
+    padding: 60px 5px;
+    border: 1px solid #161616;
+    border-radius: 40px;
+    margin: 20px;
+    transition: all 200ms;
+}
+
+.box__card-primary6 {
+    max-width: 350px;
+    padding: 60px 5px;
+    border: 1px solid #161616;
+    border-radius: 40px;
+    margin: 20px;
+    transition: all 200ms;
+}
+
+.box__card-primary1:hover {
+    border: 1px solid transparent;
+    box-shadow: var(--box_shadow-primary);
+}
+
+.box__card-primary1 h2 {
+    font-size: var(--text_title_card);
+    margin-top: 40px;
+    font-weight: 500;
+    font: color;
+}
+
+.box__card-primary1 p {
+    margin-top: 20px;
+}
+
+.box__card-primary2:hover {
+    border: 1px solid transparent;
+    box-shadow: var(--box_shadow-primary);
+}
+
+.box__card-primary2 h2 {
+    font-size: var(--text_title_card);
+    margin-top: 40px;
+    font-weight: 500;
+}
+
+.box__card-primary2 p {
+    margin-top: 20px;
+}
+
+.box__card-primary3:hover {
+    border: 1px solid transparent;
+    box-shadow: var(--box_shadow-primary);
+}
+
+.box__card-primary3 h2 {
+    font-size: var(--text_title_card);
+    margin-top: 40px;
+    font-weight: 500;
+}
+
+.box__card-primary3 p {
+    margin-top: 20px;
+}
+
+.box__card-primary4:hover {
+    border: 1px solid transparent;
+    box-shadow: var(--box_shadow-primary);
+}
+
+.box__card-primary4 h2 {
+    font-size: var(--text_title_card);
+    margin-top: 40px;
+    font-weight: 500;
+}
+
+.box__card-primary4 p {
+    margin-top: 20px;
+}
+
+.box__card-primary5:hover {
+    border: 1px solid transparent;
+    box-shadow: var(--box_shadow-primary);
+}
+
+.box__card-primary5 h2 {
+    font-size: var(--text_title_card);
+    margin-top: 40px;
+    font-weight: 500;
+}
+
+.box__card-primary5 p {
+    margin-top: 20px;
+}
+
+.box__card-primary6:hover {
+    border: 1px solid transparent;
+    box-shadow: var(--box_shadow-primary);
+}
+
+.box__card-primary6 h2 {
+    font-size: var(--text_title_card);
+    margin-top: 40px;
+    font-weight: 500;
+}
+
+.box__card-primary6 p {
+    margin-top: 20px;
+}
