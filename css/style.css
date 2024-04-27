@@ -242,7 +242,7 @@ body {
 .box__card-primary {
     max-width: 350px;
     padding: 60px 5px;
-    border: 1px solid #e6e6e6;
+    border: 1px solid #161616;
     border-radius: 40px;
     margin: 20px;
     transition: all 200ms;
@@ -337,4 +337,10 @@ body {
     background-color: rgba(240, 248, 255, 0.438);
 }
 
+.Segundas_Opciones {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: var(--main_color-secundary);
+    background-color: rgba(241, 185, 185, 0.815);
+}
 
