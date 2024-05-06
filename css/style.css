@@ -349,6 +349,7 @@ body {
 
 .Imagen-f {
     text-align: left;
+    color: #ffffff;
 }
 
 .box__card-primary1 {
@@ -358,11 +359,12 @@ body {
     border-radius: 40px;
     margin: 20px;
     transition: all 200ms;
-    background-image: url(https://www.bikerwiki.ru/images/thumb/e/e2/80810.jpg/400px-80810.jpg);
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/514/1014/370/2012-796-ducati-hypermotard-wallpaper-preview.jpg);
     background-position-x: center;
-    background-position-y: center;
-    
+    background-position-y: -45px;
+
 }
+
 
 .box__card-primary2 {
     max-width: 350px;
@@ -371,6 +373,9 @@ body {
     border-radius: 40px;
     margin: 20px;
     transition: all 200ms;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/1008/815/768/ducati-motorcycle-hypermotard-wallpaper-preview.jpg);
+    background-position-x: -90px;
+    background-position-y: -130px;
 
 }
 
@@ -381,6 +386,9 @@ body {
     border-radius: 40px;
     margin: 20px;
     transition: all 200ms;
+    background-image: url(https://i.pinimg.com/736x/1a/f7/e6/1af7e6522c79895e2e4cc1eb9916ae20.jpg);
+    background-position-x: -80px;
+    background-position-y: center;
 }
 
 .box__card-primary4 {
@@ -390,6 +398,9 @@ body {
     border-radius: 40px;
     margin: 20px;
     transition: all 200ms;
+    background-image: url(https://www.motociclismo.es/uploads/s1/10/38/47/29/ducati-panigale-v4-sp2-estatica-2-resultado_2_790x454.jpeg);
+    background-position-x: -90px;
+    background-position-y: -140px;
 }
 
 .box__card-primary5 {
