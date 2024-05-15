@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 
+@media screen and (max-width: 480px){
+    #encabezado{
+        height: auto;
+    }
+    #contenido{
+        width: auto;
+    }
+    #barra_lateral{
+        display:none;
+    }
+}
 * {
     margin: 0;
     padding: 0;
@@ -410,6 +421,9 @@ body {
     border-radius: 40px;
     margin: 20px;
     transition: all 200ms;
+    background-image: url(https://www.bennetts.co.uk/-/media/bikesocial/2023-october-images/2024-ducati-desertx-rally-technical-review/2024-ducati-desertx-rally-review-details-price-spec_257.ashx?h=493&w=740&la=en&hash=AF9457E3C88C3668D5BD43485650256CA353C68F);
+    background-position-x: center;
+    background-position-y: -160px;
 }
 
 .box__card-primary6 {
@@ -419,11 +433,15 @@ body {
     border-radius: 40px;
     margin: 20px;
     transition: all 200ms;
+    background-image: url(https://stat.overdrive.in/wp-content/odgallery/2021/07/60524_2021_Ducati_Multistrada_V4_1_468x263.jpg);
+    background-position-x: center;
+    background-position-y: center;
 }
 
 .box__card-primary1:hover {
     border: 1px solid transparent;
     box-shadow: var(--box_shadow-primary);
+    
 }
 
 .box__card-primary1 h2 {
