@@ -418,14 +418,11 @@ body {
     border-radius: 40px;
     margin: 20px;
     transition: all 200ms;
-<<<<<<< HEAD
-    background-image: url(https://www.ducaticolombia.co/wp-content/uploads/2023/04/Ducati-Diavel-V4-MY23-explore-gallery-03-1920x1080-01.jpg);
     background-size: cover;
-=======
     background-image: url(https://www.bennetts.co.uk/-/media/bikesocial/2023-october-images/2024-ducati-desertx-rally-technical-review/2024-ducati-desertx-rally-review-details-price-spec_257.ashx?h=493&w=740&la=en&hash=AF9457E3C88C3668D5BD43485650256CA353C68F);
     background-position-x: center;
-    background-position-y: -160px;
->>>>>>> db4faa0ae0bee117ee1c132af3990c73e7dd1901
+    background-position-y: center;
+
 }
 
 .box__card-primary6 {
@@ -435,14 +432,11 @@ body {
     border-radius: 40px;
     margin: 20px;
     transition: all 200ms;
-<<<<<<< HEAD
-    background-image: url(https://www.moto1pro.com/sites/default/files/styles/featured_img_min_1200/public/ducati_multistrada-v4-rs-2024_1.jpg?itok=5yQ7og3i);
     background-size: cover;
-=======
     background-image: url(https://stat.overdrive.in/wp-content/odgallery/2021/07/60524_2021_Ducati_Multistrada_V4_1_468x263.jpg);
     background-position-x: center;
     background-position-y: center;
->>>>>>> db4faa0ae0bee117ee1c132af3990c73e7dd1901
+
 }
 
 .box__card-primary1:hover {
@@ -535,4 +529,34 @@ body {
 
 .box__card-primary6 p {
     margin-top: 20px;
+}
+#Conozca {
+    font-size:xx-large;
+}
+#Person1 {
+    background-image: url(https://pix11.com/wp-content/uploads/sites/25/2022/03/AP22054729638125-1.jpg?w=2560&h=1440&crop=1);
+    max-width: 350px;
+    padding: 60px 5px;
+    background-size: cover;
+    background-position-x:60%;
+    background-position-y: center;
+
+}
+#Person2 {
+    background-image: url(https://media.gq.com.mx/photos/6206c1dc43f71a078a355167/16:9/w_2560%2Cc_limit/bruce-wayne-como-imitar-su-estilo-formal.jpg);
+    max-width: 350px;
+    padding: 60px 5px;
+    background-size: cover;
+    background-position-x:60%;
+    background-position-y: center;
+
+}
+#Person3 {
+    background-image: url(https://hips.hearstapps.com/hmg-prod/images/henry-cavill-attends-netflixs-enola-holmes-2-world-premiere-news-photo-1683270713.jpg?crop=0.694xw:1.00xh;0.154xw,0&resize=1200:*);
+    max-width: 350px;
+    padding: 60px 5px;
+    background-size: cover;
+    background-position-x:60%;
+    background-position-y: center;
+
 }
