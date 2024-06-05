@@ -107,9 +107,9 @@ body {
 
 .menu>nav>ul>li a {
     color: rgb(102, 116, 41);
-    /*Variable var(--color_text-secundary);*/
+    
     font-size: 16px;
-    /*Variable var(--lowText_font_size);*/
+    
     position: relative;
 }
 
@@ -121,11 +121,11 @@ body {
     display: block;
     padding: 8px 40px;
     border: 2px solid #309C13;
-    /*Variable var(--color_text-primary);*/
+   
     border-radius: 8px;
     font-weight: 500;
     color: #155404;
-    /*Variable var(--color_text-tertiary);*/
+    
     margin: 0px 20px;
     transition: all 300ms;
 }
@@ -133,7 +133,7 @@ body {
 .btn_quote:hover {
     color: white;
     background: #309C13;
-    /*Variable var(--color_text-primary);*/
+    
 }
 
 .menu .Imagenes {
@@ -534,7 +534,7 @@ body {
     font-size:xx-large;
 }
 #Person1 {
-    background-image: url(https://pix11.com/wp-content/uploads/sites/25/2022/03/AP22054729638125-1.jpg?w=2560&h=1440&crop=1);
+    background-image: url(https://media.vogue.es/photos/5e45fac314cc4800084d7470/2:3/w_1920,c_limit/GettyImages-1066870196.jpg);
     max-width: 350px;
     padding: 60px 5px;
     background-size: cover;
@@ -559,4 +559,115 @@ body {
     background-position-x:60%;
     background-position-y: center;
 
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+
+.form {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.form-group input, .form-group textarea {
+    width: 48%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group textarea {
+    width: 100%;
+    height: 100px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #9b26af;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #fff;
+    padding: 20px ;
+    margin-top: auto;
+    max-width: 1500px;
+    
+
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1500px;
+    height: auto;
+    margin: auto;
+    display: flex;
+   
+}
+
+.footer-logo, .footer-links, .footer-services, .footer-contact {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.footer-logo img {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+.footer-links ul, .footer-services ul, .footer-contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li, .footer-services li, .footer-contact li {
+    margin-bottom: 5px;
+}
+
+.newsletter {
+    display: flex;
+    align-items: center;
+}
+
+.newsletter input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    flex: 1;
+}
+
+.newsletter button {
+    background-color: #9b26af;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
 }
